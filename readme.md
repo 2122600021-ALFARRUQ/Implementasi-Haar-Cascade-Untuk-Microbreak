@@ -44,7 +44,7 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 | **Python** | 3.x | Bahasa pemrograman utama |
 | **OpenCV (cv2)** | Latest | Computer vision & deteksi wajah |
 | **Tkinter** | Built-in | Framework GUI |
-| **PIL/Pillow** | Latest | Manipulasi & rendering gambar | ✅ Required |
+| **PIL/Pillow** | Latest | Manipulasi & rendering gambar |
 
 ### Komponen Computer Vision
 
