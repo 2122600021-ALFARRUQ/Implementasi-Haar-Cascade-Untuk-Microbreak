@@ -7,8 +7,8 @@ Mata kuliah : Pengolahan Citra
 Program Studi : D4 Teknik Elektronika
 Politeknik Elektronika Negeri Surabaya
 
-Anggota kelompok: 
-Kelompok 6 : 
+Anggota kelompok:
+Kelompok 6 :
 Al Farruq Rodhiyatul A.    (2122600021)
 Yunanta Adi Wijaya         (2122600035)
 Dewangga Pratama Ikko P.   (2122600052)
