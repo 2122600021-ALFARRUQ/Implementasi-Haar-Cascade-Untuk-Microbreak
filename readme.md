@@ -66,7 +66,7 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 
 ---
 ## 🧭 Alur Kerja Sistem
-![Alt text]https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/ec81bc419444c6c91b2ffa09badbded1ef665f36/Alur_Program_Deteksi_Wajah.png)
+![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/ec81bc419444c6c91b2ffa09badbded1ef665f36/Alur_Program_Deteksi_Wajah.png)
 
 ## 🧭 Flowchart Sistem
 ![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/c83b80360666de98103237fae1214d8836fc99b6/Flowchart%20Microbreak.jpeg)
