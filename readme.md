@@ -88,7 +88,7 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 ![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/c83b80360666de98103237fae1214d8836fc99b6/Flowchart%20Microbreak.jpeg)
 
 ## Dokumentasi 
-Link video:
+Link video: https://youtu.be/0EhADgEiu3U
 
 ## Analisis Hasil 
 
