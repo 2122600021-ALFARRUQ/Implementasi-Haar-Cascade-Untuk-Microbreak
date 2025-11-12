@@ -2,9 +2,9 @@
 Proyek ini dibuat untuk mencegah kelelahan fisik dan mental, seperti bagi para pekerja yang berhubungan dengan komputer dalam cakupan waktu yang cukup lama. Pengguna dapat mengetahui waktu yang ideal untuk bekerja maupun mengambil istirahat kecil selama pekerjaan, yang mana penting untuk menjaga fokus dan kesehatan fisik dan mental berdasarkan rutinitas pekerjaan.
 
 ## Support By :
-Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
-Mata kuliah : Pengolahan Citra
-Program Studi : D4 Teknik Elektronika
+Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)  
+Mata kuliah : Pengolahan Citra  
+Program Studi : D4 Teknik Elektronika  
 Politeknik Elektronika Negeri Surabaya
 
 Anggota kelompok:  
