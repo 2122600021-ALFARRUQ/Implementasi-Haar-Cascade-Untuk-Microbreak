@@ -1,11 +1,15 @@
-# 🧠 Microbreak Detector  
-**Deteksi Wajah Otomatis untuk Mengatur Waktu Istirahat dan Kerja**
+## 📘 Deskripsi Proyek  
+**Microbreak Detection** adalah aplikasi berbasis Python dan OpenCV yang memantau keberadaan pengguna melalui kamera untuk membantu menjaga kesehatan saat bekerja di depan komputer.  
+Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasarkan deteksi wajah.
 
 ---
 
-## 📘 Deskripsi Proyek  
-**Microbreak Detector** adalah aplikasi berbasis Python dan OpenCV yang memantau keberadaan pengguna melalui kamera untuk membantu menjaga kesehatan saat bekerja di depan komputer.  
-Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasarkan deteksi wajah.
+## 🎯 Tujuan Proyek
+
+1. Mengembangkan sistem deteksi pengguna berbasis kamera untuk memantau aktivitas kerja.  
+2. Mengimplementasikan timer break yang **otomatis berhenti dan melanjutkan** sesuai deteksi wajah.  
+3. Menyediakan antarmuka sederhana yang menampilkan **status kerja dan waktu istirahat**.  
+4. Mendukung peningkatan kesadaran ergonomi kerja melalui pendekatan berbasis teknologi.
 
 ---
 
@@ -31,5 +35,49 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 
 ---
 
-## 🧩 Arsitektur Program  
+## 🧩 Teknologi & Library yang Digunakan
+
+### Teknologi
+
+| Teknologi | Versi | Fungsi | Status |
+|-----------|-------|--------|--------|
+| **Python** | 3.x | Bahasa pemrograman utama |
+| **OpenCV (cv2)** | Latest | Computer vision & deteksi wajah |
+| **Tkinter** | Built-in | Framework GUI |
+| **PIL/Pillow** | Latest | Manipulasi & rendering gambar | ✅ Required |
+
+### Komponen Computer Vision
+
+| Komponen | Deskripsi | File |
+|----------|-----------|------|
+| **Haar Cascade Classifier** | Algoritma deteksi wajah berbasis fitur Haar | `haarcascade_frontalface_default.xml` |
+| **Face Detection** | Real-time face tracking | OpenCV built-in |
+| **Histogram Equalization** | Meningkatkan akurasi deteksi | `cv2.equalizeHist()` |
+
+### Parameter Deteksi Berdasarkan Resolusi
+
+| Resolusi | Dimensi | Scale Factor | Min Neighbors | Min Face Size |
+|----------|---------|--------------|---------------|---------------|
+| **140p** | 256 × 140 | 1.03 | 2 | 13px |
+| **240p** | 320 × 240 | 1.05 | 3 | 16px |
+| **480p** | 640 × 480 | 1.10 | 5 | 32px |
+| **720p** | 1280 × 720 | 1.12 | 6 | 64px |
+| **1080p** | 1920 × 1080 | 1.15 | 7 | 96px |
+
+---
+## 🧭 Alur Kerja Sistem
+![Alt text]https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/ec81bc419444c6c91b2ffa09badbded1ef665f36/Alur_Program_Deteksi_Wajah.png)
+
+## 🧭 Flowchart Sistem
+![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/c83b80360666de98103237fae1214d8836fc99b6/Flowchart%20Microbreak.jpeg)
+
+## Dokumentasi 
+Link video:
+
+## Analisis Hasil 
+
+## Kesimpulan
+
+## Saran Update
+
 
