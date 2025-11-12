@@ -1,3 +1,19 @@
+## Implementasi Haar Cascade untuk Microbreak
+Proyek ini dibuat untuk mencegah kelelahan fisik dan mental, seperti bagi para pekerja yang berhubungan dengan komputer dalam cakupan waktu yang cukup lama. Pengguna dapat mengetahui waktu yang ideal untuk bekerja maupun mengambil istirahat kecil selama pekerjaan, yang mana penting untuk menjaga fokus dan kesehatan fisik dan mental berdasarkan rutinitas pekerjaan.
+
+## Support By :
+Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)
+Mata kuliah : Pengolahan Citra
+Program Studi : D4 Teknik Elektronika
+Politeknik Elektronika Negeri Surabaya
+
+Anggota kelompok: 
+Kelompok 6 : 
+Al Farruq Rodhiyatul A.    (2122600021)
+Yunanta Adi Wijaya         (2122600035)
+Dewangga Pratama Ikko P.   (2122600052)
+Dewa Gede Angkasa A.       (2122600059)
+
 ## 📘 Deskripsi Proyek  
 **Microbreak Detection** adalah aplikasi berbasis Python dan OpenCV yang memantau keberadaan pengguna melalui kamera untuk membantu menjaga kesehatan saat bekerja di depan komputer.  
 Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasarkan deteksi wajah.
