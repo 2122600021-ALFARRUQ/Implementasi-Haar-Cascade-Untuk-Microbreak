@@ -39,8 +39,8 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 
 ### Teknologi
 
-| Teknologi | Versi | Fungsi | Status |
-|-----------|-------|--------|--------|
+| Teknologi | Versi | Fungsi |
+|-----------|-------|--------|
 | **Python** | 3.x | Bahasa pemrograman utama |
 | **OpenCV (cv2)** | Latest | Computer vision & deteksi wajah |
 | **Tkinter** | Built-in | Framework GUI |
