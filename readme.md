@@ -1,18 +1,25 @@
-## Implementasi Haar Cascade untuk Microbreak
+## 🧠 Implementasi Haar Cascade untuk Microbreak
 Proyek ini dibuat untuk mencegah kelelahan fisik dan mental, seperti bagi para pekerja yang berhubungan dengan komputer dalam cakupan waktu yang cukup lama. Pengguna dapat mengetahui waktu yang ideal untuk bekerja maupun mengambil istirahat kecil selama pekerjaan, yang mana penting untuk menjaga fokus dan kesehatan fisik dan mental berdasarkan rutinitas pekerjaan.
 
-## Support By :
+---
+
+## 🤝 Support By :
 Dosen Pengampu : Akhmad Hendriawan ST., MT. (NIP.197501272002121003)  
 Mata kuliah : Pengolahan Citra  
 Program Studi : D4 Teknik Elektronika  
 Politeknik Elektronika Negeri Surabaya
 
-Anggota kelompok:  
-Kelompok 6 :  
-Al Farruq Rodhiyatul A.    (2122600021)  
-Yunanta Adi Wijaya         (2122600035)  
-Dewangga Pratama Ikko P.   (2122600052)  
-Dewa Gede Angkasa A.       (2122600059)
+---
+## 👥 Daftar Anggota Kelompok 6
+
+| No | Nama Lengkap        | NRP           |
+|----|----------------------|----------------|
+| 1  | Al Farruq Rodhiyatul A.          | 2122600021     |
+| 2  | Yunanta Adi Wijaya    | 2122600035     |
+| 3  | Dewangga Pratama Ikko P.    | 2122600052     |
+| 4  |Dewa Gede Angkasa A. |2122600059 |
+
+--- 
 
 ## 📘 Deskripsi Proyek  
 **Microbreak Detection** adalah aplikasi berbasis Python dan OpenCV yang memantau keberadaan pengguna melalui kamera untuk membantu menjaga kesehatan saat bekerja di depan komputer.  
@@ -87,13 +94,28 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 ## 🧭 Flowchart Sistem
 ![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/c83b80360666de98103237fae1214d8836fc99b6/Flowchart%20Microbreak.jpeg)
 
-## Dokumentasi 
-Link video: https://youtu.be/0EhADgEiu3U
+##  📸 Dokumentasi
+Berikut link video dari hasil percobaan implementasi sistem Haar Cascade sebagai sistem microbreak.
+Link video: https://youtu.be/0EhADgEiu3U.
 
-## Analisis Hasil 
+---
 
-## Kesimpulan
+##  📊 Analisis Hasil 
+Berdasarkan hasil pengujian yang dilakukan pada beberapa kondisi pencahayaan dan posisi pengguna, sistem menunjukkan performa deteksi yang stabil dan responsif.
+Deteksi wajah menggunakan OpenCV Haar Cascade Classifier mampu mengenali wajah pengguna dengan tingkat akurasi yang cukup baik pada kondisi pencahayaan normal dan jarak kamera 40–80 cm. 
+Selain itu dari pengujian, diperoleh temuan sebagai berikut:
+- Akurasi deteksi rata-rata mencapai 95% pada lingkungan terang.
+- Respon waktu deteksi berada di kisaran 0.3–0.6 detik, tergantung performa perangkat keras.
+- Saat wajah tidak terdeteksi, timer istirahat aktif secara otomatis dan berhenti ketika pengguna kembali.
+- Dalam skenario tanpa wajah lebih dari durasi “timeout”, sistem otomatis berpindah ke mode break dan menunggu hingga deteksi wajah kembali stabil.
 
-## Saran Update
+---
+##  🧭 Kesimpulan
+Dari hasil implementasi dan pengujian sistem ini, dapat disimpulkan bahwa:
+1. Sistem Smart Break Timer berhasil mengintegrasikan deteksi wajah dengan kontrol waktu kerja dan waktu istirahat secara otomatis.
+2. Timer istirahat berhenti ketika wajah terdeteksi kembali, sehingga waktu istirahat yang dihitung benar-benar sesuai dengan kondisi pengguna.
+3. Implementasi berbasis Python dan OpenCV menunjukkan performa yang ringan dan dapat dijalankan di perangkat laptop standar tanpa memerlukan GPU eksternal.
+---
+
 
 
