@@ -94,6 +94,9 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 ## 🧭 Flowchart Sistem
 ![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/c83b80360666de98103237fae1214d8836fc99b6/Flowchart%20Microbreak.jpeg)
 
+## 🧭 Diagram UML
+Diagram UML Menggambarkan Interaksi Antar User dengan Aplikasi dalam Case Normal
+
 ##  📸 Dokumentasi
 Berikut link video dari hasil percobaan implementasi sistem Haar Cascade sebagai sistem microbreak.
 Link video: https://youtu.be/0EhADgEiu3U.
