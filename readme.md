@@ -96,7 +96,7 @@ Program ini secara otomatis menghitung waktu kerja dan waktu istirahat berdasark
 
 ## 🧭 Diagram UML
 Diagram UML Menggambarkan Interaksi Antar User dengan Aplikasi dalam Case Normal
-![Alt text](./Interaksi_MicroBreak.png)
+![Alt text](https://github.com/2122600021-ALFARRUQ/Implementasi-Haar-Cascade-Untuk-Microbreak/blob/4093be8ff7f20b2c601356fc9a424cd8c6752028/Interaksi%20MicroBreak.png)
 
 ##  📸 Dokumentasi
 Berikut link video dari hasil percobaan implementasi sistem Haar Cascade sebagai sistem microbreak.
