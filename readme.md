@@ -112,13 +112,16 @@ Selain itu dari pengujian, diperoleh temuan sebagai berikut:
 - Respon waktu deteksi berada di kisaran 0.3–0.6 detik, tergantung performa perangkat keras.
 - Saat wajah tidak terdeteksi, timer istirahat aktif secara otomatis dan berhenti ketika pengguna kembali.
 - Dalam skenario tanpa wajah lebih dari durasi “timeout”, sistem otomatis berpindah ke mode break dan menunggu hingga deteksi wajah kembali stabil.
-
+- Sistem berpotensi dikembangkan dengan fitur alarm atau notifikasi untuk meningkatkan kenyamanan pengguna.
+- Konsumsi CPU meningkat saat deteksi dilakukan terus-menerus, namun masih dalam batas wajar untuk laptop standar.
 ---
 ##  🧭 Kesimpulan
 Dari hasil implementasi dan pengujian sistem ini, dapat disimpulkan bahwa:
 1. Sistem Smart Break Timer berhasil mengintegrasikan deteksi wajah dengan kontrol waktu kerja dan waktu istirahat secara otomatis.
 2. Timer istirahat berhenti ketika wajah terdeteksi kembali, sehingga waktu istirahat yang dihitung benar-benar sesuai dengan kondisi pengguna.
 3. Implementasi berbasis Python dan OpenCV menunjukkan performa yang ringan dan dapat dijalankan di perangkat laptop standar tanpa memerlukan GPU eksternal.
+4. Performa deteksi dapat ditingkatkan menggunakan metode deteksi wajah yang lebih modern.
+5. Performa deteksi dapat ditingkatkan menggunakan metode deteksi wajah yang lebih modern.
 ---
 
 
